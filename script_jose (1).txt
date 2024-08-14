@@ -1,0 +1,8 @@
+Expresión de busqueda: (\d{4})\.(\d{2})\.(\d{2})\.(\d{2})\.(\d{2})\.(\d{2})
+remplazar con: \1\\\2\\\3 \4:\5:\6
+
+Expresión de busqueda:  ([A-Z]+\d+[A-Z]*)\s+(\d+)
+remplazar con: \1\2
+
+Expresión de busqueda: \r?\n
+remplazar con: , 
